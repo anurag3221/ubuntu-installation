@@ -46,12 +46,12 @@ For this tutorial, we'll use
 Linux, Windows and Mac OS. Choose the version that corresponds to your
 current operating system, and download and install the tool.
 
-![](.//media/image16.png){width="6.5in" height="5.402777777777778in"}
+![](.//media/image16.png)
 
 Select your downloaded ISO, choose your USB flash drive, and then click
 **Flash!** to install your image.
 
-![](.//media/image29.png){width="6.5in" height="4.25in"}
+![](.//media/image29.png)
 
 **4. Boot from a USB flash drive**
 ----------------------------------
@@ -69,13 +69,10 @@ which key to press to bring up the boot menu.
 Once the installer has initialised you will be invited to choose your
 language
 
-![image](.//media/image24.png){width="6.5in"
-height="4.611111111111111in"}
-
+![image](.//media/image24.png)
 And then presented with the option to try or install Ubuntu.
 
-![image](.//media/image1.png){width="6.5in"
-height="4.611111111111111in"}
+![image](.//media/image1.png)
 
 If you click **Try Ubuntu**, you can preview Ubuntu without making any
 changes to your PC. You can return to the installer menu at any time by
@@ -86,8 +83,7 @@ To proceed, click **Install Ubuntu**.
 You will be asked to select your keyboard layout. Once you've chosen
 one, click **Continue**.
 
-![image](.//media/image4.png){width="6.5in"
-height="4.611111111111111in"}
+![image](.//media/image4.png)
 
 Next, you will be asked to connect to wi-fi, this will allow Ubuntu to
 download updates and third-party drivers (such as NVIDIA graphics
@@ -104,8 +100,7 @@ machine. If you encounter this pop-up please visit
 [[help.ubuntu.com/rst]{.underline}](https://help.ubuntu.com/rst/) for
 more information.
 
-![image](.//media/image26.png){width="6.5in"
-height="4.611111111111111in"}
+![image](.//media/image26.png)
 
 **5. Installation Setup**
 -------------------------
@@ -120,8 +115,7 @@ as third-party software that may improve device support and performance
 (for example, Nvidia graphics drivers) during the installation. It is
 recommended to check both of these boxes.
 
-![image](.//media/image21.png){width="6.5in"
-height="4.611111111111111in"}
+![image](.//media/image21.png)
 
 **6. Type of installation**
 ---------------------------
@@ -134,8 +128,7 @@ If your device currently has another operating system installed, you
 will receive additional options to install Ubuntu alongside that OS
 rather than replacing it.
 
-![image](.//media/image20.png){width="6.5in"
-height="4.611111111111111in"}
+![image](.//media/image20.png)
 
 Let's take a moment to review all of the above options in detail.
 
@@ -158,8 +151,7 @@ option that is detailed further down.
 If you select this option Ubuntu will take up the entire disk space on
 the selected drive.
 
-![image](.//media/image6.png){width="6.5in"
-height="4.611111111111111in"}
+![image](.//media/image6.png)
 
 If your PC has multiple hard drives then this option allows you to
 install Ubuntu alongside an existing OS as long as they each have their
@@ -170,8 +162,7 @@ This option also allows you to encrypt your entire drive using LVM. To
 do this open the Advanced features option before proceeding to the above
 screen and select 'Encrypt the new Ubuntu installation for security'
 
-![image](.//media/image22.png){width="6.5in"
-height="4.611111111111111in"}
+![image](.//media/image22.png)
 
 LVM stands for Logical Volume Management. By using LVM during the setup,
 it makes it easier to create and manage partitions post-installation.
@@ -180,8 +171,7 @@ In the following step, you will be prompted to create a Security key
 that you will need to enter on boot before logging in with your user
 credentials.
 
-![image](.//media/image28.png){width="6.5in"
-height="4.611111111111111in"}
+![image](.//media/image28.png)
 
 If you select encryption, you mustn\'t lose your security key! Write it
 down and store it in a safe place outside of your local system. **You
@@ -197,8 +187,7 @@ detail during this tutorial on specific setups.
 Here users can see all existing drives and partitions and create and
 manage new partition tables and configurations.
 
-![image](.//media/image25.png){width="6.5in"
-height="4.611111111111111in"}
+![image](.//media/image25.png)
 
 ### **(Alert) Windows BitLocker is enabled**
 
@@ -209,8 +198,7 @@ install Ubuntu safely alongside Windows.
 If this is the case you will get a prompt to disable BitLocker in
 Windows before restarting the Ubuntu installer.
 
-![image](.//media/image13.png){width="6.5in"
-height="4.611111111111111in"}
+![image](.//media/image13.png)
 
 Disabling Windows BitLocker is not required when fully erasing Windows
 or when there is a separate, unencrypted drive available for Ubuntu. For
@@ -223,8 +211,7 @@ Regardless of the option you select, clicking **Next** will take you to
 a summary of your installation configuration to give you a chance to
 confirm your setup before clicking **Install**
 
-![image](.//media/image17.png){width="6.5in"
-height="4.611111111111111in"}
+![image](.//media/image17.png)
 
 Once you proceed, Ubuntu will begin the installation process in the
 background and you will not be able to return to this point.
@@ -236,8 +223,7 @@ Select your location and timezone from the map screen and click
 **Continue**. This information will be detected automatically if you are
 connected to the internet.
 
-![image](.//media/image18.jpg){width="6.5in"
-height="4.611111111111111in"}
+![image](.//media/image18.jpg)
 
 **9. Create Your Login Details**
 --------------------------------
@@ -250,32 +236,25 @@ You can choose to log in automatically or require a password. If you are
 using your device whilst travelling, it's recommended to keep "Require
 my password to log in" enabled.
 
-![image](.//media/image27.png){width="6.5in"
-height="4.611111111111111in"}
+![image](.//media/image27.png)
 
 **10. Complete the Installation**
 ---------------------------------
 
 Finally, you can choose to switch your desktop from Light to Dark theme.
 
-![image](.//media/image11.png){width="6.5in"
-height="4.611111111111111in"}
+![image](.//media/image11.png)
 
 And then sit back and enjoy the slideshow as Ubuntu installs in the
 background!
-![:slight\_smile:](.//media/image9.png){width="0.20833333333333334in"
-height="0.20833333333333334in"}
-
-![image](.//media/image7.jpg){width="6.5in"
-height="4.611111111111111in"}
-
+![:slight\_smile:](.//media/image9.png)
+![image](.//media/image7.jpg)
 Once the installation has been completed, you will be prompted to
 restart your machine.
 
 Click **Restart Now**.
 
-![image](.//media/image2.png){width="6.5in"
-height="4.611111111111111in"}
+![image](.//media/image2.png)
 
 When you restart, you will be prompted to remove your USB flash drive
 from the device. Once you've done this, press **ENTER**.
@@ -285,8 +264,7 @@ password on the login screen.
 
 And that's it, welcome to your new Ubuntu Desktop!
 
-![Desktop Dark](.//media/image14.jpg){width="6.5in"
-height="3.6527777777777777in"}
+![Desktop Dark](.//media/image14.jpg)
 
 The welcome widget will help you with some additional setup options,
 including:
@@ -316,7 +294,7 @@ for Software Updater via the app menu (the icon with 9 squares in the
 bottom corner of your window) and it will check for updates and apply
 them.
 
-![](.//media/image23.png){width="6.5in" height="2.0833333333333335in"}
+![](.//media/image23.png)
 
 You can also update Ubuntu using the terminal.
 
@@ -374,8 +352,7 @@ During the installation type step, you may find that you are unable to
 proceed with the installation without first deactivating Windows
 Bitlocker.
 
-![image](.//media/image13.png){width="6.5in"
-height="4.611111111111111in"}
+![image](.//media/image13.png)
 
 [[BitLocker Drive
 Encryption](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview)]{.underline}
@@ -450,21 +427,17 @@ following:
     > box. Alternatively, open Control Panel \> System and Security \>
     > BitLocker Drive Encryption.
 
-![bitlocker-turn-off](.//media/image5.png){width="6.5in"
-height="3.5277777777777777in"}
+![bitlocker-turn-off](.//media/image5.png)
 
 Windows will now inform you that it is going to decrypt the data.
 
-![bitlocker-decryption-warning](.//media/image10.png){width="4.583333333333333in"
-height="2.138888888888889in"}
+![bitlocker-decryption-warning](.//media/image10.png)
 
 This process can take a little bit of time:
 
-![bitlocker-decrypting](.//media/image8.png){width="4.611111111111111in"
-height="2.7777777777777777in"}
+![bitlocker-decrypting](.//media/image8.png)
 
-![bitlocker-decryption-complete](.//media/image19.png){width="4.611111111111111in"
-height="2.236111111111111in"}
+![bitlocker-decryption-complete](.//media/image19.png)
 
 -   Once this step is complete, reboot the computer, and log into
     > Windows, to make sure everything works correctly, and that all
