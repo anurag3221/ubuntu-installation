@@ -23,7 +23,7 @@ it is always recommended to back up your data before installation.
 -------------------------------
 
 You can download an Ubuntu image
-[[here]{.underline}](https://ubuntu.com/download/desktop). Make sure to
+[[here]](https://ubuntu.com/download/desktop). Make sure to
 save it to a memorable location on your PC! For this tutorial, we will
 use the Ubuntu 23.04 release which uses the new Ubuntu Desktop installer
 that will be included in all future Ubuntu releases.
@@ -42,7 +42,7 @@ create the installation media. This is not the same as copying the ISO
 and requires some bespoke software.
 
 For this tutorial, we'll use
-[[balenaEtcher]{.underline}](https://etcher.balena.io/), as it runs on
+[[balenaEtcher]](https://etcher.balena.io/), as it runs on
 Linux, Windows and Mac OS. Choose the version that corresponds to your
 current operating system, and download and install the tool.
 
@@ -259,8 +259,7 @@ Click **Restart Now**.
 When you restart, you will be prompted to remove your USB flash drive
 from the device. Once you've done this, press **ENTER**.
 
-Enter your encryption password if you created one, followed by your user
-password on the login screen.
+Enter your encryption password if you created one, followed by your user password on the login screen.
 
 And that's it, welcome to your new Ubuntu Desktop!
 
@@ -271,13 +270,9 @@ including:
 
 -   Connecting your profile to various online accounts.
 
--   Attach an [[Ubuntu Pro]{.underline}](https://ubuntu.com/pro) free
-    > personal or paid subscription to apply additional security patches
-    > to your device (this option is only available when using a
-    > long-term support \[LTS\] version of Ubuntu).
+-   Attach an [[Ubuntu Pro]{.underline}](https://ubuntu.com/pro) free personal or paid subscription to apply additional security patches to your device (this option is only available when using a long-term support \[LTS\] version of Ubuntu).
 
--   Opting into sending device information to Canonical to help improve
-    > Ubuntu (by default, Canonical doesn't collect device information).
+-   Opting into sending device information to Canonical to help improve ubuntu (by default, Canonical doesn't collect device information).
 
 -   Activating location services.
 
@@ -307,8 +302,7 @@ sudo apt update
 
 You will be prompted to enter your login password.
 
-This will check for updates and tell you if any need to apply. To apply
-any updates, type:
+This will check for updates and tell you if any need to apply. To apply any updates, type:
 
 sudo apt upgrade
 
@@ -321,29 +315,22 @@ process.
 Thank you for completing this tutorial. We hope you enjoy your new
 desktop.
 
-Check out our picks for [the [Top 10 apps for a fresh Linux install in
-2021]{.underline}](https://ubuntu.com/blog/top-10-apps-for-a-fresh-linux-install-in-2021).
+Check out our picks for [the [Top 10 apps for a fresh Linux install in 2021]](https://ubuntu.com/blog/top-10-apps-for-a-fresh-linux-install-in-2021).
 
-If you have any issues, please contact us via the [[Ubuntu
-Discourse]{.underline}](https://discourse.ubuntu.com/), or visit [[Ask
-Ubuntu]{.underline}](https://askubuntu.com/).
+If you have any issues, please contact us via the [[Ubuntu Discourse]](https://discourse.ubuntu.com/), or visit [[Ask Ubuntu]](https://askubuntu.com/).
 
-You can also read the latest news about Ubuntu Desktop on the [[Ubuntu
-Blog]{.underline}](https://ubuntu.com/blog/desktop).
+You can also read the latest news about Ubuntu Desktop on the [[Ubuntu Blog]](https://ubuntu.com/blog/desktop).
 
 As a next step, why not try:
 
--   [[Installing Ubuntu Desktop on a Raspberry Pi 4\
-    > ]{.underline}](https://ubuntu.com/tutorials/how-to-install-ubuntu-desktop-on-raspberry-pi-4#1-overview)
+-   [[Installing Ubuntu Desktop on a Raspberry Pi 4\]](https://ubuntu.com/tutorials/how-to-install-ubuntu-desktop-on-raspberry-pi-4#1-overview)
 
--   [[Using VirtualBox to try out different Ubuntu flavours\
-    > ]{.underline}](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview)
+-   [[Using VirtualBox to try out different Ubuntu flavours\] ](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview)
 
 For users who need to run both Ubuntu and Windows, you can also install
 Ubuntu via Windows Subsystem for Linux (WSL).
 
--   [[Install Ubuntu on Windows Subsystem for Linux
-    > (WSL)]{.underline}](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overview)
+-   [[Install Ubuntu on Windows Subsystem for Linux (WSL)]{ }](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overview)
 
 **13. (Additional) Installing Ubuntu alongside Windows with BitLocker**
 -----------------------------------------------------------------------
@@ -355,77 +342,40 @@ Bitlocker.
 ![image](.//media/image13.png)
 
 [[BitLocker Drive
-Encryption](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview)]{.underline}
-is a data protection feature that integrates with the Windows operating
-system. When activated, it will encrypt the contents of the hard drives
-in Windows, making the data inaccessible without the correct decryption
-key. It is designed to minimise the risk of data theft or exposure from
-lost or stolen computers.
+Encryption](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview)]
+is a data protection feature that integrates with the Windows operating system. When activated, it will encrypt the contents of the hard drivesin Windows, making the data inaccessible without the correct decryption key. It is designed to minimise the risk of data theft or exposure from lost or stolen computers.
 
-When a user starts their computer and properly authenticates with the
-correct credentials, BitLocker will decrypt the data and allow seamless
-usage of the hard drive and the data it contains. Without the correct
-credentials, the encrypted hard drive data will look like random noise.
+When a user starts their computer and properly authenticates with the correct credentials, BitLocker will decrypt the data and allow seamless usage of the hard drive and the data it contains. Without the correct credentials, the encrypted hard drive data will look like random noise.
 
 ### **BitLocker & Ubuntu installation**
 
 If you plan to install Ubuntu side by side with Windows, you need to
 take into consideration the operational setup on your computer.
 
--   If you are not using BitLocker, Ubuntu will be able to see the
-    > correct hard drive structure, including any partitions and data
-    > stored on it. This allows the guided wizard to correctly map the
-    > data, and safely make adjustments to accommodate the additional
-    > installation of Ubuntu alongside Windows.
+-   If you are not using BitLocker, Ubuntu will be able to see the correct hard drive structure, including any partitions and data stored on it. This allows the guided wizard to correctly map the data, and safely make adjustments to accommodate the additional installation of Ubuntu alongside Windows.
 
--   If you are using BitLocker, the hard drive contents will not be
-    > accessible, and they will appear as random noise. This means that
-    > the Ubuntu installer cannot correctly map data, and the additional
-    > installation cannot be safely performed without data loss...
-    > Additionally, some manufacturers ship systems with BitLocker
-    > enabled but the hard drive contents are not yet encrypted. In this
-    > case, the Ubuntu installer will also not be able to correctly map
-    > data.
+-   If you are using BitLocker, the hard drive contents will not be accessible, and they will appear as random noise. This means that the Ubuntu installer cannot correctly map data, and the additional installation cannot be safely performed without data loss. Additionally, some manufacturers ship systems with BitLocker enabled but the hard drive contents are not yet encrypted. In this case, the Ubuntu installer will also not be able to correctly map data.
 
 You can:
 
 -   Cancel the installation of Ubuntu and continue using Windows only.
 
--   Decide that the data stored in Windows is not important and that you
-    > are willing to overwrite the data contents. The Ubuntu installer
-    > can then erase the entire contents of the hard drive and create
-    > its structure (partitions and data). This is a destructive
-    > operation, with no option to recover any Windows data.
+-   Decide that the data stored in Windows is not important and that you are willing to overwrite the data contents. The Ubuntu installer can then erase the entire contents of the hard drive and create its structure (partitions and data). This is a destructive operation, with no option to recover any Windows data.
 
--   Decide to turn BitLocker off. This will turn off the encryption
-    > feature, and the hard drive and its data will be visible and
-    > accessible from the Ubuntu installer, allowing it to correctly and
-    > safely set up a side-by-side configuration. For systems with
-    > BitLocker enabled but not yet encrypted you will need to first
-    > turn BitLocker on and then turn it off.
+-   Decide to turn BitLocker off. This will turn off the encryption feature, and the hard drive and its data will be visible and accessible from the Ubuntu installer, allowing it to correctly and safely set up a side-by-side configuration. For systems with BitLocker enabled but not yet encrypted you will need to first turn BitLocker on and then turn it off.
 
--   **Note:** Not all versions of Windows will allow you to re-enable
-    > BitLocker after disabling it. If you wish to re-encrypt your
-    > Windows partition after installing Ubuntu alongside it, please
-    > check that your version of Windows supports this.
+-   **Note:** Not all versions of Windows will allow you to re-enable bitLocker after disabling it. If you wish to re-encrypt your windows partition after installing Ubuntu alongside it, please check that your version of Windows supports this.
 
 ### **Turn BitLocker off**
 
 If you decide to proceed with the third option, you will need to do the
 following:
 
--   Back your data up - any encryption procedure, hard drive structure
-    > change or installation of new operating systems on a hard drive
-    > that already contains data can potentially lead to a data loss.
-    > You need to make sure your data is safe. Even simply copying the
-    > important files to an external drive can minimize the risk of data
-    > loss.
+-   Back your data up - any encryption procedure, hard drive structure change or installation of new operating systems on a hard drive that already contains data can potentially lead to a data loss.You need to make sure your data is safe. Even simply copying the important files to an external drive can minimize the risk of data loss.
 
 -   Quit the Ubuntu installer and reboot the computer into Windows.
 
--   In Windows, open Settings \> type Manage BitLocker in the search
-    > box. Alternatively, open Control Panel \> System and Security \>
-    > BitLocker Drive Encryption.
+-   In Windows, open Settings \> type Manage BitLocker in the search box . Alternatively, open Control Panel \> System and Security \> BitLocker Drive Encryption.
 
 ![bitlocker-turn-off](.//media/image5.png)
 
@@ -439,10 +389,6 @@ This process can take a little bit of time:
 
 ![bitlocker-decryption-complete](.//media/image19.png)
 
--   Once this step is complete, reboot the computer, and log into
-    > Windows, to make sure everything works correctly, and that all
-    > your data is intact.
+-   Once this step is complete, reboot the computer, and log into Windows, to make sure everything works correctly, and that all your data is intact.
 
--   Reboot your computer again, and launch the Ubuntu installer. At this
-    > point, you will be able to proceed with the hard disk
-    > configuration step.
+-   Reboot your computer again, and launch the Ubuntu installer. At this Point, you will be able to proceed with the hard disk configuration step.
