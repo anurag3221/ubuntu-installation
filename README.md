@@ -23,7 +23,7 @@ it is always recommended to back up your data before installation.
 -------------------------------
 
 You can download an Ubuntu image
-[[here]](https://ubuntu.com/download/desktop). Make sure to
+(https://ubuntu.com/download/desktop). Make sure to
 save it to a memorable location on your PC! For this tutorial, we will
 use the Ubuntu 23.04 release which uses the new Ubuntu Desktop installer
 that will be included in all future Ubuntu releases.
@@ -42,7 +42,7 @@ create the installation media. This is not the same as copying the ISO
 and requires some bespoke software.
 
 For this tutorial, we'll use
-[[balenaEtcher]](https://etcher.balena.io/), as it runs on
+(https://etcher.balena.io/), as it runs on
 Linux, Windows and Mac OS. Choose the version that corresponds to your
 current operating system, and download and install the tool.
 
@@ -97,7 +97,7 @@ Some PCs use Intel RST (Rapid Storage Technology) which is not supported
 by Ubuntu. If this is the case then you will not be able to proceed
 beyond this point without disabling RST in the bios menu of your
 machine. If you encounter this pop-up please visit
-[[help.ubuntu.com/rst]{.underline}](https://help.ubuntu.com/rst/) for
+[[help.ubuntu.com/rst]](https://help.ubuntu.com/rst/) for
 more information.
 
 ![image](.//media/image26.png)
